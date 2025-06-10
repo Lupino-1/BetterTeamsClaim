@@ -1,0 +1,15 @@
+name: BetterTeamsClaim
+version: '1.0'
+main: com.lupino.betterteamsclaim.BetterTeamsClaim
+api-version: '1.21'
+commands:
+  claim:
+    description: /claim
+    permission: claim
+depend:
+  - BetterTeams
+permissions:
+  betterteamsclaim.admin:
+    default: op
+  claim:
+    default: true
